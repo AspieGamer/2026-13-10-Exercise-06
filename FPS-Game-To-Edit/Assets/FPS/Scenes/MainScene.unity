@@ -3431,7 +3431,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2015434656898269652, guid: 25a1b0efadb966e44889fce712c8ff8d, type: 3}
       propertyPath: m_Name
-      value: Enemy_HoverBot
+      value: Gerald_Von_Spiffington
       objectReference: {fileID: 0}
     - target: {fileID: 2015434656898269652, guid: 25a1b0efadb966e44889fce712c8ff8d, type: 3}
       propertyPath: m_IsActive

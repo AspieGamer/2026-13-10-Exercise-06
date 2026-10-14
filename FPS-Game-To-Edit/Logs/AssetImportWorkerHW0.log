@@ -1,21 +1,21 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.6/respin/6000.6.0f1-fa21a270ab12' branch; Version is '6000.6.0f1 (f7f8ed4d1e24) revision 16251117'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-baylo" at "2026-10-14T01:14:04.5067829Z"
 OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 32212 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-baylo" at "2026-10-14T00:55:55.0991573Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-10-14T00:55:55Z
+Date: 2026-10-14T01:14:04Z
 [Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 37228, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.3+d7ffd15
-  Session Id:              01ec432d0f0642f68bebfbcfeea459b3
+  Session Id:              10522ae4c583488bbb58b711ac46b5c9
   Correlation Id:          becbc34c4d993232f4a52b7f2ffc782b
-  External correlation Id: 6397496478316196873
+  External correlation Id: 3248981547089749367
   Machine Id:              Pa+90HwRvstkvRMuW4vK7hgS6HM=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-baylo" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-baylo-notifications" at "2026-10-14T00:55:55.1291501Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-baylo-notifications" at "2026-10-14T01:14:04.5366726Z"
 [Licensing::Module] Licensing Background thread has ended after 0.03s
 
 COMMAND LINE ARGUMENTS:
@@ -30,9 +30,9 @@ C:/GitHub/2026-13-10-Exercise-06/FPS-Game-To-Edit
 -logFile
 Logs/AssetImportWorkerHW0.log
 -srvPort
-52859
+60944
 -parentPid
-52984
+52968
 -analyticsCloudUserId
 anonymous
 -analyticsCloudProjectId
@@ -96,12 +96,12 @@ C:/GitHub/2026-13-10-Exercise-06/FPS-Game-To-Edit
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [51776]  Target information:
+Player connection [53816]  Target information:
 
-Player connection [51776]  * "[IP] 10.82.184.139 [Port] 0 [Flags] 2 [Guid] 3122769497 [EditorId] 3122769497 [Version] 1048832 [Id] WindowsEditor(7,Aspie_PC_Deus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [53816]  * "[IP] 10.82.184.139 [Port] 0 [Flags] 2 [Guid] 1066624011 [EditorId] 1066624011 [Version] 1048832 [Id] WindowsEditor(7,Aspie_PC_Deus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [51776] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [51776] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [53816] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [53816] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -122,7 +122,6 @@ Initialising UDS system complete:
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.54 ms, found 3 plugins.
 Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
 [EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Resources/UnitySubsystems
@@ -142,13 +141,13 @@ Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Managed
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001339 seconds.
+Registered in 0.001186 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -157,22 +156,22 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.387 seconds
-Domain Reload Profiling: 861ms
-	BeginReloadAssembly (110ms)
-	RebuildCommonClasses (5ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (287ms)
-		LoadAssemblies (108ms)
-		TypeCache.Refresh (192ms)
-			TypeCache.ScanAssembly (179ms)
+- Finished resetting the current domain, in  0.349 seconds
+Domain Reload Profiling: 766ms
+	BeginReloadAssembly (93ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (260ms)
+		LoadAssemblies (91ms)
+		TypeCache.Refresh (182ms)
+			TypeCache.ScanAssembly (168ms)
 		AnalyzeDomain (1ms)
-	FinalizeReload (388ms)
+	FinalizeReload (350ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (89ms)
-			ProcessInitializeOnLoadAttributes (80ms)
-			ProcessInitializeOnLoadMethodAttributes (147ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (82ms)
+			ProcessInitializeOnLoadMethodAttributes (130ms)
 Initializing Unity extensions:
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
@@ -196,34 +195,35 @@ Native extension for WebGL target not found
 [MODES] Loading mode Default (0) for mode-current-id-FPS-Game-To-Edit
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  1.056 seconds
-Domain Reload Profiling: 1844ms
-	BeginReloadAssembly (193ms)
+- Finished resetting the current domain, in  0.698 seconds
+Domain Reload Profiling: 1384ms
+	BeginReloadAssembly (167ms)
 		DisableScriptedObjects (7ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (8ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (527ms)
-		LoadAssemblies (295ms)
-		TypeCache.Refresh (128ms)
-			TypeCache.ScanAssembly (111ms)
-		AnalyzeDomain (57ms)
-			BuildScriptInfoCaches (51ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (1056ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (457ms)
+		LoadAssemblies (256ms)
+		TypeCache.Refresh (113ms)
+			TypeCache.ScanAssembly (101ms)
+		AnalyzeDomain (49ms)
+			BuildScriptInfoCaches (44ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (699ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (111ms)
-			ProcessInitializeOnLoadAttributes (463ms)
-			ProcessInitializeOnLoadMethodAttributes (150ms)
-			AfterProcessingInitializeOnLoad (10ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (306ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 AcceleratorClientConnectionCallback - disconnected - :0
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
 Unloading 92 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5328 unused Assets / (10.9 MB). Loaded Objects now: 6150.
-Memory consumption went from 325.5 MB to 314.6 MB.
-Total: 11.457600 ms (FindLiveObjects: 0.579500 ms CreateObjectMapping: 0.363400 ms MarkObjects: 6.712800 ms  DeleteObjects: 3.531000 ms)
+Unloading 5328 unused Assets / (11.4 MB). Loaded Objects now: 6150.
+Memory consumption went from 325.8 MB to 314.3 MB.
+Total: 8.191000 ms (FindLiveObjects: 0.521200 ms CreateObjectMapping: 0.278700 ms MarkObjects: 4.332800 ms  DeleteObjects: 2.847300 ms)
 
 ========================================================================
 Received Prepare
@@ -240,31 +240,30 @@ Native extension for WebGL target not found
 [MODES] ModeService[none].LoadModes
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.878 seconds
-Domain Reload Profiling: 1566ms
-	BeginReloadAssembly (233ms)
-		DisableScriptedObjects (12ms)
-		CreateAndSetChildDomain (51ms)
+- Finished resetting the current domain, in  0.744 seconds
+Domain Reload Profiling: 1310ms
+	BeginReloadAssembly (194ms)
+		DisableScriptedObjects (6ms)
+		CreateAndSetChildDomain (41ms)
 	RebuildCommonClasses (8ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (65ms)
-	LoadAllAssembliesAndSetupDomain (368ms)
-		LoadAssemblies (298ms)
-		TypeCache.Refresh (7ms)
-		AnalyzeDomain (6ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (878ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (297ms)
+		LoadAssemblies (243ms)
+		TypeCache.Refresh (9ms)
+		AnalyzeDomain (5ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (744ms)
 		SetupLoadedEditorAssemblies (0ms)
-			LogAssemblyErrors (4ms)
-			BeforeProcessingInitializeOnLoad (105ms)
-			ProcessInitializeOnLoadAttributes (340ms)
-			ProcessInitializeOnLoadMethodAttributes (120ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (305ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
 			AfterProcessingInitializeOnLoad (6ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
 Unloading 90 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5325 unused Assets / (10.5 MB). Loaded Objects now: 6201.
-Memory consumption went from 332.1 MB to 321.6 MB.
-Total: 9.268800 ms (FindLiveObjects: 0.509800 ms CreateObjectMapping: 0.218800 ms MarkObjects: 4.570800 ms  DeleteObjects: 3.600100 ms)
+Unloading 5325 unused Assets / (9.3 MB). Loaded Objects now: 6201.
+Memory consumption went from 331.9 MB to 322.5 MB.
+Total: 7.260700 ms (FindLiveObjects: 0.544800 ms CreateObjectMapping: 0.240500 ms MarkObjects: 4.115400 ms  DeleteObjects: 2.161500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -272,101 +271,11 @@ Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
 Unloading 90 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 90 unused Assets / (7.0 MB). Loaded Objects now: 6201.
-Memory consumption went from 329.5 MB to 322.5 MB.
-Total: 7.015300 ms (FindLiveObjects: 0.378200 ms CreateObjectMapping: 0.078400 ms MarkObjects: 4.627300 ms  DeleteObjects: 1.732900 ms)
+Memory consumption went from 329.4 MB to 322.4 MB.
+Total: 7.438700 ms (FindLiveObjects: 0.374000 ms CreateObjectMapping: 0.104900 ms MarkObjects: 4.542100 ms  DeleteObjects: 2.216100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-10-14T00:57:58.8918304Z
-  Time since last request: 247653.56617589999223 seconds.
-  importAddress: GUID: f91ba615e2a740140947df84b1b6b683 - Path: Assets/FPS/Audio/Music/2026-10-13-FPS-Level-01-BGM.mp3 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: f91ba615e2a740140947df84b1b6b683 - Path: Assets/FPS/Audio/Music/2026-10-13-FPS-Level-01-BGM.mp3 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: f91ba615e2a740140947df84b1b6b683' -> (Import Result ID: '65afddbed43ca2fc964e8526eb168165') in 0.060 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1ef730ee7ab2e9453e490a8a621aed8c DependenciesID=0a0cb58b2711aa900774fc81064870db StaticDependenciesID=b0456578f881136bd5c4fa25ff82a7a7 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time of request: 2026-10-14T00:58:22.6192693Z
-  Time since last request: 23.6556988 seconds.
-  importAddress: GUID: f91ba615e2a740140947df84b1b6b683 - Path: Assets/FPS/Audio/Music/2026-10-13-FPS-Level-01-BGM.mp3 - Importer: PreviewImporter
-Importing 'GUID: f91ba615e2a740140947df84b1b6b683 - Path: Assets/FPS/Audio/Music/2026-10-13-FPS-Level-01-BGM.mp3 - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: f91ba615e2a740140947df84b1b6b683' -> (Import Result ID: '1a57c803f461a0e823e3558481d4e909') in 0.119 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f69f1030c80b33eb5307a8184abd98fd DependenciesID=67115368a082056933f7f9741b196b80 StaticDependenciesID=4b875029ae364d42013befcdd119cfc3 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time of request: 2026-10-14T00:58:22.7484682Z
-  Time since last request: 0.0000258 seconds.
-  importAddress: GUID: 44c5f76f80602024e82d3e5f3af4ee97 - Path: Assets/FPS/Audio/SFX/Enemies/Hoverbot_Movement.wav - Importer: PreviewImporter
-Importing 'GUID: 44c5f76f80602024e82d3e5f3af4ee97 - Path: Assets/FPS/Audio/SFX/Enemies/Hoverbot_Movement.wav - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 44c5f76f80602024e82d3e5f3af4ee97' -> (Import Result ID: '9ee0c815924eadb6372aa0c665d1671e') in 0.046 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7f05d6e90fa9c1ea4e26ab218ba34705 DependenciesID=e7bfbcdeba34177ec0c59246bc088830 StaticDependenciesID=1c1b78ed120ffec0c9bcc6eefc52579a 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time of request: 2026-10-14T00:58:22.8029296Z
-  Time since last request: 0.0002479 seconds.
-  importAddress: GUID: 7a0479c7c60da2d45b93a1af1afe6c1e - Path: Assets/FPS/Audio/SFX/Weapons/Launcher_Charge_BuildUp.wav - Importer: PreviewImporter
-Importing 'GUID: 7a0479c7c60da2d45b93a1af1afe6c1e - Path: Assets/FPS/Audio/SFX/Weapons/Launcher_Charge_BuildUp.wav - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 7a0479c7c60da2d45b93a1af1afe6c1e' -> (Import Result ID: 'a54bcdb12cb3d0ca69fc80571772fbe6') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=25bea62c74053b469e108e21b0b1d099 DependenciesID=9fd551602952e18366ff1db121651b5d StaticDependenciesID=eadbe313016c70101e8072f23dca68b4 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time of request: 2026-10-14T00:58:22.8201132Z
-  Time since last request: 0.000401 seconds.
-  importAddress: GUID: 3f01be6994a0ab6448a945dbdd9b3cda - Path: Assets/FPS/Audio/SFX/UI/Notification_Snap.wav - Importer: PreviewImporter
-Importing 'GUID: 3f01be6994a0ab6448a945dbdd9b3cda - Path: Assets/FPS/Audio/SFX/UI/Notification_Snap.wav - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 3f01be6994a0ab6448a945dbdd9b3cda' -> (Import Result ID: '3431a79ee0d00eca03358d1418a67150') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b3806e766d2d750ffffb1ad21e2d9cad DependenciesID=cc622e27e2710d2ac8957858735ff0d5 StaticDependenciesID=98ed1a37f166526f793d5cb141db6484 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time of request: 2026-10-14T00:58:22.8346377Z
-  Time since last request: 0.0003442 seconds.
-  importAddress: GUID: 01a15bd1861d7914abbedc36aad1f4d6 - Path: Assets/FPS/Audio/SFX/Player/Jetpack_Use.wav - Importer: PreviewImporter
-Importing 'GUID: 01a15bd1861d7914abbedc36aad1f4d6 - Path: Assets/FPS/Audio/SFX/Player/Jetpack_Use.wav - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 01a15bd1861d7914abbedc36aad1f4d6' -> (Import Result ID: '04d434a26048cb6991ca9abfdc2f28a7') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=46f9c054edda380f6088029831efe2e5 DependenciesID=3899fb166c9e4029ab8376746ffacde3 StaticDependenciesID=49d5bcd0f212810ae4152f20e26b81d8 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time of request: 2026-10-14T00:58:22.846735Z
-  Time since last request: 0.0002282 seconds.
-  importAddress: GUID: b78fcf1f89aacdb468ce983629886f2d - Path: Assets/FPS/Audio/SFX/Weapons/Launcher_Charge_Loop.wav - Importer: PreviewImporter
-Importing 'GUID: b78fcf1f89aacdb468ce983629886f2d - Path: Assets/FPS/Audio/SFX/Weapons/Launcher_Charge_Loop.wav - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: b78fcf1f89aacdb468ce983629886f2d' -> (Import Result ID: 'd722ab00dbf8f84e3e913f013df2335d') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=21ff0f5630ae2a37abaa1d49a072173c DependenciesID=f9b6f71bade770fb62f4d6171bd348f9 StaticDependenciesID=72d94a44ad7470b393a41ab975e4a92f 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time of request: 2026-10-14T00:58:22.8617309Z
-  Time since last request: 0.0020933 seconds.
-  importAddress: GUID: a533219934975884e81c1add37af9930 - Path: Assets/FPS/Audio/SFX/UI/Notification_End.wav - Importer: PreviewImporter
-Importing 'GUID: a533219934975884e81c1add37af9930 - Path: Assets/FPS/Audio/SFX/UI/Notification_End.wav - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: a533219934975884e81c1add37af9930' -> (Import Result ID: 'd25303b36a8c461a4b5a9432d0a5f63c') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=40a7f55d36023c283b38a8d023fdb81d DependenciesID=2dab98ef88912b85a89d795e54d65f14 StaticDependenciesID=8031b2e5853a5cf442f79c3e9129c892 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time of request: 2026-10-14T00:58:22.8742707Z
-  Time since last request: 0.0003048 seconds.
-  importAddress: GUID: 25e8bbe95ad4f344abd4dd8d7c8636ab - Path: Assets/FPS/Audio/SFX/Player/Damage_Tick.mp3 - Importer: PreviewImporter
-Importing 'GUID: 25e8bbe95ad4f344abd4dd8d7c8636ab - Path: Assets/FPS/Audio/SFX/Player/Damage_Tick.mp3 - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 25e8bbe95ad4f344abd4dd8d7c8636ab' -> (Import Result ID: '72d39e1befb220866506ebc229642f88') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2002654e7d2e826a451227e3ff8655b5 DependenciesID=c0dfac852aa4e08ab6457e9bd8acbac4 StaticDependenciesID=61216ba5724ac814397694b6ad49828f 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time of request: 2026-10-14T00:58:22.8870404Z
-  Time since last request: 0.0003862 seconds.
-  importAddress: GUID: 179db782f1044bc48b9dff5d487c4bef - Path: Assets/FPS/Audio/SFX/UI/Notification_Chime.wav - Importer: PreviewImporter
-Importing 'GUID: 179db782f1044bc48b9dff5d487c4bef - Path: Assets/FPS/Audio/SFX/UI/Notification_Chime.wav - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 179db782f1044bc48b9dff5d487c4bef' -> (Import Result ID: 'a6016d8af4e3e102e0688036c8adda5d') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7f77eb1c5f058ca811dcae21b7ce6d79 DependenciesID=999b24a50507a6dd33928c1b576147bb StaticDependenciesID=0f1dad0f3974d1a875511d6fc124335b 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+Editor requested this worker to shutdown with reason: Editor is closing down
 AcceleratorClientConnectionCallback - disconnected - :0
 AssetImportWorker is now disconnected from the server
 Process exiting
