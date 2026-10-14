@@ -6,19 +6,19 @@
         {
             "ColumnId": "Visibility",
             "Visible": true,
-            "Width": 28.636363983154297,
+            "Width": 20.0,
             "Index": 0
         },
         {
             "ColumnId": "Picking",
             "Visible": true,
-            "Width": 25.363636016845703,
+            "Width": 20.0,
             "Index": 1
         },
         {
             "ColumnId": "HierarchyViewColumn Name",
             "Visible": true,
-            "Width": 200.0,
+            "Width": 214.0,
             "Index": 2
         },
         {

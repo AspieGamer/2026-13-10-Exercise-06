@@ -19,18 +19,6 @@ Initialising UDS system complete:
   - Command buffer size: 8192
   - Hashmap size: 4194304
 Starting Unity Data Store Application
-[Error] Failed to free block of size 1890 - size delta was 46!
-0x00007ff6f722ac75 (Unity.DataStore) uds_wait_handle_complete
-0x00007ff6f71ef835 (Unity.DataStore) uds_cleanup
-0x00007ff6f7218578 (Unity.DataStore) uds_wait_handle_complete
-0x00007ff6f720995b (Unity.DataStore) udebug_set_file_logging_level
-0x00007ff6f71f1e4a (Unity.DataStore) uds_cleanup
-0x00007ff6f71c25f4 (Unity.DataStore) 
-0x00007ff6f71e207a (Unity.DataStore) uds_cleanup
-0x00007ff6f72261d8 (Unity.DataStore) uds_wait_handle_complete
-0x00007ffa6499cd87 (KERNEL32) BaseThreadInitThunk
-0x00007ffa65f8caec (ntdll) RtlUserThreadStart
-
 Unity Data Store Application Complete
 [Warning] Shutting down service while there are still connected clients, client count = 3
 Shut down UDS service system complete
